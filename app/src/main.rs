@@ -1,7 +1,7 @@
 use actix_cors::Cors;
 use actix_web::{middleware::Logger, web::Data, App, HttpServer};
 use config::{create_pool, Config};
-use crud_actix::{
+use crud_product_actix::{
     application::{self, openapi::API_DOC},
     state::state_factory,
 };
